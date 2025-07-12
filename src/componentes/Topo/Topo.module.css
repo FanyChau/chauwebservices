@@ -1,0 +1,47 @@
+.container_topo{
+    width: 100%;
+    max-width: 1024px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.imagem_logo {
+    width: 200px;
+    height: auto;
+}
+
+.container_menu{
+    display: flex;
+    gap: 10px;
+    margin-left: 16px;
+    font-weight: 500;
+}
+
+.container_menu a{
+     text-decoration: none;
+     color: #0b1a5a;
+}
+
+.container_menu a:hover {
+    color: #f96715;
+}
+
+.link_contato {
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    background: #f96715;
+    border: 2px solid #f96715;
+    border-radius: 15px;
+    padding: 4px 16px;
+    transition: 0.2s, color 0.2s;
+}
+
+.link_contato:hover {
+    color: #f96715;
+    background: #fff;
+}
