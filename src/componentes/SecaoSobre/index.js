@@ -4,7 +4,7 @@ import sobreimg from '../../../public/proposta-sobre1.jpg';
 
 export default function SecaoSobre() {
   return (
-    <section className={estilos.secao_sobre}>
+    <section id="sobre" className={estilos.secao_sobre}>
     <div className={estilos.container_sobre}>
       <div className={estilos.imagem_sobre}>
         <Image src={sobreimg} alt="Imagem sobre nós" />

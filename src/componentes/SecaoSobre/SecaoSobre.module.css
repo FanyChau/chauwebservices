@@ -44,5 +44,27 @@
     font-size: 18px;
 }
 
+@media (max-width: 768px){
+    .imagem_sobre img{
+        display: none;
+    }
+    .conteudo_sobre {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .conteudo_sobre h3{
+       text-align: center;
+    }
+}
 
+@media (max-width: 425px){
+    .conteudo_sobre{
+        width: auto;
+    }
+    .container_sobre p{
+        font-size: 16px;
+    }
+}
 

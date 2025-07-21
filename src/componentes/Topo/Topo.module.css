@@ -45,3 +45,38 @@
     color: #f96715;
     background: #fff;
 }
+
+.botao{
+  padding: 15px 40px; 
+  font-size: 18px;
+  border: none;
+  cursor: pointer; 
+  display: none; 
+  align-items: center; 
+  border-radius: 4px; 
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 425px){
+    .botao{
+        display: flex;
+    }
+    .container_topo{
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .container_menu {
+        display:none;
+    }
+
+    .link_contato{
+        display:none;
+    }
+
+    .imagem_logo {
+        width: 200px;
+    }
+    
+    
+}

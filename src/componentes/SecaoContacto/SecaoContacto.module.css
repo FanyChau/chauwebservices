@@ -1,0 +1,53 @@
+.secao_contacto{
+    padding: 50px 20px;
+    margin: 0 auto;
+    background-color: #0b1a5a;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+   
+}
+
+
+.container_contacto{
+    display: flex;   
+    flex-direction: column;
+    padding: 15px 0;    
+    min-height: 140px;
+
+}
+
+
+.container_contacto img{
+    width: 18px;
+    height: 18px;
+}
+
+.container_contacto span{
+    padding: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.container_contacto h3{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.container_icons{
+   display:flex;
+    align-items: center;
+    justify-content: center;
+    max-height:20px;
+    
+}
+
+@media (max-width: 768px) {
+    .secao_contacto{
+        flex-direction: column;
+        text-align: center;
+    }
+ 
+}
