@@ -37,7 +37,7 @@
 }
 
 .container_icons{
-   display:flex;
+    display:flex;
     align-items: center;
     justify-content: center;
     max-height:20px;
@@ -48,6 +48,11 @@
     .secao_contacto{
         flex-direction: column;
         text-align: center;
+    }
+
+    .container_icons{
+        justify-content: flex-start;
+        align-items: center;
     }
  
 }

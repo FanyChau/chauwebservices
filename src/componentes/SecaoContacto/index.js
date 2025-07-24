@@ -10,11 +10,11 @@ export default function SecaoContacto(){
                 
             <div className={estilos.container_contacto}>
                  <h3>Contacto</h3>
-                 <div className={estilos.container}>
-                <Image src={telefone} alt="telefone" />
-                <span>Telefone: (+258) 87 279 4003</span>
-             </div> 
-             <div className={estilos.container_icons}>
+               <div className={estilos.container_icons}>
+                <Image src={telefone} alt="Telefone" />
+                <span>Telefone: +258 87 2794 0003</span>
+                </div>
+             <div className={estilos.container_icons}>  
                 <Image src={email} alt="Email" />
                 <span>Email: chauwebservices@gmail.com</span>
              </div>

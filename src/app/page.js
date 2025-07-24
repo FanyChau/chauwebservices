@@ -66,8 +66,6 @@ export default function Home() {
                 descricao="Projeto de site para uma sorvetrtia com mulplas paginas com foco no uso de SPAs."
                 button={<Link href="https://projeto-site-sorveteria.vercel.app/" target="_blank"className={estilos.botao}>Ver Projeto</Link>}
                  />
-            
-              
              </div> 
         </section>
         <SecaoContacto />
