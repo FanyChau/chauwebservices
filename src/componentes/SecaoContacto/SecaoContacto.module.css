@@ -39,7 +39,7 @@
 .container_icons{
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     max-height:20px;
     
 }
