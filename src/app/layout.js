@@ -4,6 +4,7 @@ export const metadata = {
   title: "ChauWebServices | Soluções de Tecnologia para a sua Empresa",
   description: "Na ChauWebServices, transformamos suas ideias em plataformas digitais de sucessos. Somos comprometidos em oferecer soluções de tecnologia para atender às necessidades específicas da sua empresa.",
   robots: "index, follow",
+   content: "VWeYN5iMO_4B2V5_6QEhd2l1hVa2DMRwhvinEhCxTMA"
 };
 
 export default function RootLayout({ children }) {
