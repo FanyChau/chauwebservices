@@ -13,9 +13,11 @@ import SecaoContacto from "@/componentes/SecaoContacto";
 import Rodape from "@/componentes/Rodape";
 import { useState } from "react";
 
+
 export default function Home() {
   const [cardAtivo, setCardAtivo] = useState(null);
   return (
+    
       <main className={estilos.main}>
         <SecaoBanner />
         <section id="servicos" className={estilos.secao_servicos}>
