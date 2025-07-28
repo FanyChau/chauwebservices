@@ -1,6 +1,5 @@
 'use client'
 import Link from 'next/link';
-import Image from "next/image";
 import clinica from "../../public/foto-clinica.PNG"
 import otica from "../../public/foto-otica.PNG"
 import sorveteria from "../../public/foto-sorveteria.PNG"
@@ -17,7 +16,10 @@ import { useState } from "react";
 export default function Home() {
   const [cardAtivo, setCardAtivo] = useState(null);
   return (
-    
+    <htm>
+      <Head> 
+        <meta name="google-site-verification" content="VWeYN5iMO_4B2V5_6QEhd2l1hVa2DMRwhvinEhCxTMA" />
+      </Head>
       <main className={estilos.main}>
         <SecaoBanner />
         <section id="servicos" className={estilos.secao_servicos}>
@@ -73,5 +75,6 @@ export default function Home() {
         <SecaoContacto />
         <Rodape />
       </main>
+      </htm>
   );
 }
