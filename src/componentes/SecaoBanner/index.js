@@ -4,7 +4,7 @@ export default function SecaoBanner() {
     return (
         <section className={estilos.container_secao_banner}>
             <div className={estilos.texto_banner}>
-             <h1>Transformamos ideias em Plataformas Digitais</h1> 
+             <h1>Criamos pontes digitais</h1> 
              <div className={estilos.container_botoes}>
                 <Link href="https://wa.me/258872794003/" target="_blank"
                  className={estilos.botao_contato}>Faça seu orçamento
